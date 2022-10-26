@@ -1,0 +1,21 @@
+{
+  "resources/fonts/poppins/Poppins-Regular.ttf": {
+    "file": "assets/Poppins-Regular.2425ebbc.ttf",
+    "src": "resources/fonts/poppins/Poppins-Regular.ttf"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app.af899b74.js",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "css": [
+      "assets/app.4a377271.css"
+    ],
+    "assets": [
+      "assets/Poppins-Regular.2425ebbc.ttf"
+    ]
+  },
+  "resources/js/app.css": {
+    "file": "assets/app.4a377271.css",
+    "src": "resources/js/app.css"
+  }
+}
