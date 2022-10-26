@@ -1,0 +1,46 @@
+@font-face {
+    font-family: Poppins-Regular;
+    src: url("../fonts/poppins/Poppins-Regular.ttf");
+}
+
+html {
+    font-family: Poppins-Regular, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.map-container-2 {
+    height: 500px;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.addMark::before {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    right: 20%;
+    left: 20%;
+    height: 2px;
+    @apply bg-violet-600;
+}
+
+.herosection {
+    background: linear-gradient(#194970, rgba(255, 255, 255, 1));
+}
+
+.header {
+    background-color: #194970;
+}
+
+.matchheader {
+    background-color: #f1f9fc;
+}
+
+.linkactive {
+    @apply text-red-500
+}
