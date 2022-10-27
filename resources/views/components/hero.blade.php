@@ -133,7 +133,7 @@
                 x-transition:enter-end="opacity-100 scale-100 translate-x-0"
                 x-transition:leave="transition ease-in duration-300"
                 x-transition:leave-start="opacity-30 scale-100 "
-                x-transition:leave-end="opacity-0 scale-90 -translate-x-12 "
+                x-transition:leave-end="opacity-0 scale-90 -translate-x-12  "
                 >
                     <x-heroAIO></x-heroAIO>
                 </div>
