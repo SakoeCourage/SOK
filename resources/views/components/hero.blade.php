@@ -135,7 +135,7 @@
                 x-transition:leave-start="opacity-30 scale-100 "
                 x-transition:leave-end="opacity-0 scale-90 -translate-x-12  "
                 >
-                    <x-heroAIO></x-heroAIO>
+                    <x-heroallinone></x-heroallinone>
                 </div>
                
                 
