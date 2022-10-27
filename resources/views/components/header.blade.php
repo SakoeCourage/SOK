@@ -33,14 +33,14 @@
             </div>
 
             <!-- Mobile Menu open: "block", Menu closed: "hidden" -->
-            <div x-cloak :class="[isOpen ? ' scale-100 opacity-100 ' : 'opacity-0  scale-0']" class="absolute top-[100%] inset-x-0 z-20 w-full mx-auto  lg:h-auto lg:scale-100 lg:mx-[initial] shadow-md rounded-lg lg:rounded-none px-6 py-4 transition-all duration-300 ease-in-out bg-gray-50  lg:bg-transparent  lg:shadow-none  lg:mt-0 lg:p-0 lg:top-0 lg:relative lg:w-auto lg:opacity-100 lg:translate-x-0 lg:flex lg:items-center">
+            <div x-cloak :class="[isOpen ? ' scale-100 opacity-100 ' : 'opacity-0  scale-0']" class="absolute top-[100%] inset-x-0 z-20 w-full mx-auto  lg:h-auto lg:scale-100 lg:mx-[initial] shadow-md  rounded-lg lg:rounded-none px-6 py-4 transition-all duration-300 ease-in-out bg-gray-50  lg:bg-transparent  lg:shadow-none  lg:mt-0 lg:p-0 lg:top-0 lg:relative lg:w-auto lg:opacity-100 lg:translate-x-0 lg:flex lg:items-center">
                 <div class="flex flex-col items-center space-y-2 lg:flex-row lg:items-center lg:space-y-0 lg:-px-8 " :class="top ? ' text-violet-400 lg:text-white' :'text-gray-700'">
                     <a @click="isOpen=false" class="block font-medium   px-4 py-2 rounded-md " :class=" currentActiveLink == 'Home'  && 'linkactive' " href="#home" >Home</a>
                     <a @click="isOpen=false" class="block font-medium   px-4 py-2 rounded-md  " :class=" currentActiveLink == 'features' && 'linkactive' " href="#features">Features</a>
                     <a @click="isOpen=false" class="block font-medium   px-4 py-2 rounded-md  " :class=" currentActiveLink == 'faculty' && 'linkactive' " href="#faculty">Faculty</a>
                     <a @click="isOpen=false" class="block font-medium   px-4 py-2 rounded-md  " :class=" currentActiveLink == 'courses' && 'linkactive' " href="#courses">Courses</a>
                     <a @click="isOpen=false" class="block font-medium   px-4 py-2 rounded-md  " :class=" currentActiveLink == 'contact' && 'linkactive' " href="#contact">Contact</a>
-
+                    
                   
                 </div>
             </div>
