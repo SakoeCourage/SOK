@@ -19,7 +19,7 @@
                 </div>
 
                 <!-- Mobile menu button -->
-                <div class="flex lg:hidden z-30">
+                <div class="flex lg:hidden z-30 ">
                     <button x-cloak @click="isOpen = !isOpen" type="button" class="   focus:outline-none  " :class="top 'text-white' ?'text-gray-500'" aria-label="toggle menu">
                         <svg x-show="!isOpen" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6  " :class="top? 'text-white' :'text-gray-500'"  fill="currentColor" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M4 8h16M4 16h16" />
