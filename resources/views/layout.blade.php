@@ -9,9 +9,9 @@
     
    
 </head>
-<body class="  h-full" x-data="scrollTop">
+<body class="h-full" x-data="scrollTop">
     <x-header></x-header>
-    <x-hero></x-hero>
+    {{-- <x-hero></x-hero> --}}
     <x-features></x-features>
     <x-faculty> </x-faculty>
     <x-courses> </x-courses>
